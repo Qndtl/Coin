@@ -29,6 +29,7 @@ const Page = () => {
     <>
       <Head>
         <title>Coin Chart | {pageQuery}</title>
+        <link rel="icon" href="/bitcoin.ico" />
       </Head>
       <div className="m-0 d-flex flex-column justify-content-center" style={{ minHeight: "100vh" }}>
         <section>
